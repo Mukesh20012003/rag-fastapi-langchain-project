@@ -20,8 +20,6 @@ documents/
 # Node
 frontend/node_modules/
 
-# Build files (optional)
-# frontend/dist/
 
 # OS files
 .DS_Store
