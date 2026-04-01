@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f7fb;
+  color: #222;
+}
+
+.container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #1f4e79;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  text-align: center;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+}
+
+h2 {
+  margin-top: 0;
+  color: #333;
+}
+
+input[type="file"],
+textarea {
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+textarea {
+  resize: vertical;
+}
+
+button {
+  background: #1f4e79;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #163b5c;
+}
+
+button:disabled {
+  background: #8ca3b8;
+  cursor: not-allowed;
+}
+
+.message {
+  margin-top: 12px;
+  font-weight: bold;
+  color: green;
+}
+
+.context-box {
+  background: #eef4fa;
+  padding: 12px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  white-space: pre-wrap;
+}

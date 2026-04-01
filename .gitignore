@@ -1,0 +1,28 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment
+.env
+
+# Vector store
+vectorstore/
+
+# Documents uploaded by users
+documents/
+
+# VS Code
+.vscode/
+
+# Node
+frontend/node_modules/
+
+# Build files (optional)
+# frontend/dist/
+
+# OS files
+.DS_Store
+Thumbs.db
